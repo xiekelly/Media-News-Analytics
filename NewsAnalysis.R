@@ -7,7 +7,7 @@
 
 
 # imports archive data
-news = read.csv("~/Desktop/NewsArticles.csv")
+news = read.csv("/data/newsarticledata.csv")
 
 # cleans and reprocesses the text
 library("tm")
